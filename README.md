@@ -1,17 +1,20 @@
 # Rule-Based Game AI Project
-This is the final project i made for 13th grade to show my knowledge in data structures and algorithms and how i can use researched algorithms to solve an NP-HARD problem.
+This is the final project i made for collage to show my knowledge in data structures and algorithms and how i can use researched algorithms to solve an NP-HARD problem.
 
 It combines three well known techniques for creating a rule-based AI agent in games: **behavior trees**, **utility functions** and **BlackBoard**.
 
 # Information About The Project
-The project was made fully in unity and visual studio 2022. it contians around 13-14k lines of code written across many classes.
+The project was made fully in unity and visual studio 2022. it contains around 9k-10k lines of code written across many classes.
 
-All of the class are categorized inside the Assets/ folder, if you want to check out the code yourself( everything else is added by unity)
+All of the classes are categorized inside the `Assets/` folder, if you want to check out the code yourself (everything else besides what's inside the `Assets/` folder is added by unity).
 
-The main focus of the project was the implementation of a game AI from scrath without using any external tools or built-in algorithms.
+The main focus of the project was the implementation of a group of agents that can dynamically cooperate with each other while scalling lineary in terms of the time complexity of their decision and execution algorithm with every agent added.Every algorithm and data structure was made from scrath without using any external tools or built-in algorithms.
 
-the project was built in 2 months on the free version of unity when i had zero knowledge about unity, meaning i had to both create the project and also learn everything on the way. Its rough, and definitly not perfect.
-i dont intend so that other people will just copy and paste it, but to give the base behind an idea for much better implementations that would be more fit for an actual game, and not just a college project.
-there are a lot of different techniques i have used in the project- between design patterns, OOP concepts, Data-oriented design, event-driven programming, complex algorithms and more.
+The project was built in 2 months on the free version of unity where i with zero knowledge about unity, meaning i had to both create the project and also learn everything on the way. While it's algorithmically really big and complex, From a real game developer perspective, it's rough and far from perfect.
 
-If you know how to speak Hebrew, i have provided inside the repository a pdf that describes fully and throughly my project book i submitted with the project, that contains all the needed information to understand how most things work.
+I hope this project can give you the base algorithmic idea for much better implementations that would be more fit for an actual game, and not just a college project.
+This project is composed of many different computer science concepts - between different design patterns, OOP concepts, Data-oriented and event-driven techniques, complex algorithms and more.
+
+If you know how to speak Hebrew, i have provided a pdf called `project book` i submitted alogn with my project, that contains all the needed information to understand how most things work.
+
+Or better than that, you can check out the main source i learned most of the techniques from called <a href="https://www.gameaipro.com/">Game AI pro</a>. IMO, it's an absolute must to read for pretty much any type of game for which you want to make your own AI from zero without relying on external tools. It's free and covers so many topics in the world of Game AI( but most of the code examples are written in C++, so you might want to be profficent enough in that language to understand) so check it out if you want.
